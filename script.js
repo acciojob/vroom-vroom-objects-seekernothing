@@ -6,7 +6,7 @@ function Car(make, model) {
 
 // Add method to Car's prototype
 Car.prototype.getMakeModel = function () {
-  return `${this.make}, ${this.model}`; // Returns make and model
+  return `${this.make} ${this.model}`; // Remove the comma between make and model
 }
 
 // Constructor function for SportsCar
